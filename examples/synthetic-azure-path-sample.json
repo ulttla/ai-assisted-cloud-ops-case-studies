@@ -1,0 +1,44 @@
+{
+  "scenario": "web-tier to app-tier path analysis",
+  "workspace_id": "demo-workspace",
+  "source": {
+    "resource_id": "/subscriptions/demo-sub/resourceGroups/demo-rg/providers/Microsoft.Compute/virtualMachines/web-vm-01",
+    "private_ip": "10.10.1.10",
+    "subnet": "web-subnet"
+  },
+  "destination": {
+    "resource_id": "/subscriptions/demo-sub/resourceGroups/demo-rg/providers/Microsoft.Compute/virtualMachines/app-vm-01",
+    "private_ip": "10.10.2.10",
+    "subnet": "app-subnet"
+  },
+  "query": {
+    "protocol": "Tcp",
+    "source_port": "49152",
+    "destination_port": "443"
+  },
+  "expected_verdict": "allowed",
+  "evidence": [
+    {
+      "type": "nsg",
+      "scope": "source-subnet-outbound",
+      "name": "web-subnet-nsg",
+      "winning_rule": "AllowVnetOutBound",
+      "verdict": "allowed"
+    },
+    {
+      "type": "nsg",
+      "scope": "destination-subnet-inbound",
+      "name": "app-subnet-nsg",
+      "winning_rule": "AllowWebToApp443",
+      "verdict": "allowed"
+    },
+    {
+      "type": "route",
+      "name": "app-route-table",
+      "route_name": "vnet-local",
+      "next_hop_type": "VnetLocal",
+      "verdict": "allowed"
+    }
+  ],
+  "public_safety_note": "Synthetic sample only. IDs and names use demo placeholders and are not copied from a real Azure tenant."
+}

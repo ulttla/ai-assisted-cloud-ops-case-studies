@@ -1,0 +1,16 @@
+{
+  "overall_verdict": "blocked",
+  "path_candidate": "source-vm to app-service",
+  "evidence": {
+    "source_nsg": "web-nsg",
+    "outbound_rule": "deny-internet-outbound",
+    "route_table": "app-route-table",
+    "route_next_hop_type": "None",
+    "service_tag_interpretation": "Internet",
+    "confidence": "high"
+  },
+  "notes": [
+    "Synthetic example only.",
+    "No real tenant, subscription, resource group, or resource identifiers are included."
+  ]
+}
