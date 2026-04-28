@@ -1,25 +1,22 @@
 # Final Approval Packet
 
-This packet is the go/no-go checklist for publishing the AI-assisted cloud ops portfolio package.
+This packet records the go/no-go checklist that was used to publish the OpenClaw use-case package under the broader AI Engineering Lab portfolio.
 
-## Current draft artifacts
+## Current public artifacts
 
-### GitHub case-study package
+### GitHub use-case package
 
-- Repository name proposal: `gun-openclaw-use-cases`
-- Local state: clean public-facing draft commit
-- Current visibility: local only
-- Public release action pending approval: create public GitHub repository and push
+- Repository: `https://github.com/ulttla/gun-openclaw-use-cases`
+- Local path: maintained in the local development workspace
+- Current state: public-facing repository published and synchronized with `origin/main`
+- Original package name was intentionally replaced with the tool-specific `gun-openclaw-use-cases` naming pattern.
 
-### gunkr.com portfolio draft
+### gunkr.com portfolio
 
-- Local state: one commit ahead of the existing gunkr.com remote
-- New section: `AI Engineering Lab`
-- New pages:
-  - `projects/azvision-network-path-analysis.html`
-  - `projects/ai-assisted-engineering-control-plane.html`
-  - `projects/long-work-window-playbook.html`
-- Public release action pending approval: push/deploy or hosting File Manager update
+- Public section: `AI Engineering Lab`
+- Public link target: `https://github.com/ulttla/gun-openclaw-use-cases`
+- gunkr.com source state: pushed to `origin/main`
+- Hosting note: Git deploy was not trusted as the sole verification path; live files were verified after File Manager fallback and cache purge.
 
 ## Evidence before approval
 

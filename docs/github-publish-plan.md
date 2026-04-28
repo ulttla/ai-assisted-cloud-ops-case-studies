@@ -1,32 +1,36 @@
 # GitHub Publish Plan
 
-This plan is intentionally staged. It prepares a public-ready package without making the repository public until the final approval gate.
+This plan records the publish path for the public OpenClaw use-case package. It started as a staged local package and is now published.
 
-## Current local repository
+## Current repository
 
-- Local path: project folder under the local development workspace
-- Current state: clean-history draft with one public-facing commit
-- Remote: not required until approval
+- Public URL: `https://github.com/ulttla/gun-openclaw-use-cases`
+- Local path: maintained in the local development workspace
+- Current state: synchronized with `origin/main`
+- Remote: `https://github.com/ulttla/gun-openclaw-use-cases.git`
 
-## Recommended repository name
+## Repository name
 
 `gun-openclaw-use-cases`
 
-## Publish steps after approval
+This name keeps the portfolio architecture clean: `gunkr.com` presents the broader `AI Engineering Lab`, while GitHub repositories can be split by tool or execution platform.
+
+## Publish and rename sequence used
 
 ```bash
 # From the local case-study repository
 scripts/validate_public_package.py
 git status --short
-gh repo create ulttla/gun-openclaw-use-cases --public --source=. --remote=origin --push
+# initial publication happened under the earlier package name
+# final public slug was then updated through GitHub repository metadata
 ```
 
 ## Post-publish checks
 
 - GitHub README renders correctly.
-- Mermaid diagrams render or are converted to static images if needed.
 - No private files are visible in the repository file tree.
-- Repository link is added to gunkr.com only after final content review.
+- Repository link is present on gunkr.com under AI Engineering Lab.
+- Old GitHub slug redirects to the new repository URL.
 
 ## Rollback if published by mistake
 
