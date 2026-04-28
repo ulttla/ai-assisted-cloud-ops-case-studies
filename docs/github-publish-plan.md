@@ -10,7 +10,7 @@ This plan is intentionally staged. It prepares a public-ready package without ma
 
 ## Recommended repository name
 
-`ai-assisted-cloud-ops-case-studies`
+`gun-openclaw-use-cases`
 
 ## Publish steps after approval
 
@@ -18,7 +18,7 @@ This plan is intentionally staged. It prepares a public-ready package without ma
 # From the local case-study repository
 scripts/validate_public_package.py
 git status --short
-gh repo create ulttla/ai-assisted-cloud-ops-case-studies --public --source=. --remote=origin --push
+gh repo create ulttla/gun-openclaw-use-cases --public --source=. --remote=origin --push
 ```
 
 ## Post-publish checks

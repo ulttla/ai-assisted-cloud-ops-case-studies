@@ -6,7 +6,7 @@ This packet is the go/no-go checklist for publishing the AI-assisted cloud ops p
 
 ### GitHub case-study package
 
-- Repository name proposal: `ai-assisted-cloud-ops-case-studies`
+- Repository name proposal: `gun-openclaw-use-cases`
 - Local state: clean public-facing draft commit
 - Current visibility: local only
 - Public release action pending approval: create public GitHub repository and push
@@ -14,7 +14,7 @@ This packet is the go/no-go checklist for publishing the AI-assisted cloud ops p
 ### gunkr.com portfolio draft
 
 - Local state: one commit ahead of the existing gunkr.com remote
-- New section: `AI-Assisted Cloud Ops`
+- New section: `AI Engineering Lab`
 - New pages:
   - `projects/azvision-network-path-analysis.html`
   - `projects/ai-assisted-engineering-control-plane.html`
@@ -54,9 +54,9 @@ Recommended only after final content review and link checks.
 ### GitHub package
 
 ```bash
-cd /path/to/ai-assisted-cloud-ops-case-studies
+cd /path/to/gun-openclaw-use-cases
 scripts/validate_public_package.py
-gh repo create ulttla/ai-assisted-cloud-ops-case-studies --public --source=. --remote=origin --push
+gh repo create ulttla/gun-openclaw-use-cases --public --source=. --remote=origin --push
 ```
 
 ### gunkr.com Git path

@@ -4,7 +4,7 @@
 
 ### Desktop
 
-- The `AI-Assisted Cloud Ops` section should appear before the existing `Key Projects` section.
+- The `AI Engineering Lab` section should appear before the existing `Key Projects` section.
 - The three new cards should be easy to scan in this order:
   1. AzVision Network Path Analysis
   2. AI-Assisted Engineering Control Plane

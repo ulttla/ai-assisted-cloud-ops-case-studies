@@ -19,7 +19,7 @@ curl -I http://127.0.0.1:8012/index.html
 Expected:
 
 - `index.html` returns HTTP 200.
-- AI-Assisted Cloud Ops section is present.
+- AI Engineering Lab section is present.
 - New case-study pages are reachable.
 
 ## Deploy options

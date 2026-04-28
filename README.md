@@ -1,6 +1,6 @@
-# AI Engineering Lab
+# OpenClaw Use Cases for an AI Engineering Lab
 
-A public portfolio package for my personal AI Engineering Lab: multi-tool orchestration, harness engineering, supervised long-running development windows, and selected infrastructure/app case studies.
+A public OpenClaw use-case package under my broader personal AI Engineering Lab: multi-tool orchestration, harness engineering, supervised long-running development windows, and selected infrastructure/app case studies.
 
 ## One-line pitch
 
@@ -10,10 +10,10 @@ I design AI-assisted engineering systems that turn multi-tool coding and infrast
 
 Many AI coding workflows optimize only for speed. My focus is broader: using an orchestration layer to coordinate multiple AI tools, CLI workflows, browser automation, validation gates, and human approval boundaries so long-running work stays safe and reviewable.
 
-This repository documents a sanitized version of the operating model I use for:
+This repository documents sanitized OpenClaw-centered use cases and the operating model I use for:
 
 - AI Engineering Lab structure for personal app development and automation
-- OpenClaw as the current orchestration/control-plane layer
+- OpenClaw as the current orchestration/control-plane layer and this repository’s current tool-specific focus
 - Codex, Claude Code, Gemini CLI, browser automation, local scripts, GitHub, and hosting workflows
 - role-based harness engineering for planning, implementation, review, fact-check, risk review, and closeout
 - supervised long-running AI development windows, currently validated at 5 hours with 7-hour campaign testing and 12-hour canary planned
