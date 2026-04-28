@@ -40,6 +40,18 @@ Priority wording to re-confirm before a wider LinkedIn/job-search push:
 5. `zero data loss` / `zero downtime`
 6. location/acquisition specifics: Nova Scotia, Toronto, Quebec, Calgary
 
+Suggested decision matrix:
+
+| Current public wording | Risk | Safer alternative if not evidence-ready |
+|---|---|---|
+| `Own a $500K annual IT budget...` | exact budget ownership | `Manage infrastructure planning, vendor coordination, and lifecycle budgeting across a lean IT environment.` |
+| `reducing storage costs by 30%` | exact savings metric | `Reduced storage and platform costs through SaaS modernization and storage consolidation.` |
+| `99.9% SLA uptime sustained` | exact availability/SLA claim | `Maintained high service availability through operational monitoring and infrastructure standardization.` |
+| `200 mailboxes and 10TB migrated without incidents` | exact volume + zero-incident claim | `Migrated large-scale mail and file data across multiple offices without material business disruption.` |
+| `zero data loss` | absolute security/recovery claim | `Restored operations while preserving business-critical data and improving recovery playbooks.` |
+| `zero downtime` | absolute availability claim | `Delivered relocations with minimal business disruption and a repeatable transition plan.` |
+| explicit acquisition locations | employer/customer sensitivity | `Supported multi-site acquisition integrations across Canada.` |
+
 Recommended next step: make one explicit decision for each claim — keep exact, soften, or remove. If softened, prefer the safer patterns above and avoid publishing new exact metrics unless they are easy to defend in interviews.
 
 ## Recommendation
