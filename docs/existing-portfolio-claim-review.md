@@ -27,6 +27,21 @@ The new AI-assisted content is sanitized. However, it appears next to existing p
 | Exact mailbox/TB counts | Migrated large-scale mail and file data across multiple offices |
 | Exact savings | Reduced infrastructure and operations costs through cloud and platform modernization |
 
+## Current gunkr.com follow-up review — 2026-04-27
+
+During the `AI Engineering Lab` / `gun-openclaw-use-cases` rename pass, the remaining higher-risk public wording was checked but not changed automatically because these are career-history claims rather than OpenClaw repo-link changes.
+
+Priority wording to re-confirm before a wider LinkedIn/job-search push:
+
+1. `Own a $500K annual IT budget...`
+2. `reducing storage costs by 30%`
+3. `99.9% SLA uptime sustained`
+4. `200 mailboxes and 10TB migrated without incidents`
+5. `zero data loss` / `zero downtime`
+6. location/acquisition specifics: Nova Scotia, Toronto, Quebec, Calgary
+
+Recommended next step: make one explicit decision for each claim — keep exact, soften, or remove. If softened, prefer the safer patterns above and avoid publishing new exact metrics unless they are easy to defend in interviews.
+
 ## Recommendation
 
 Before pushing a major portfolio refresh, decide whether existing claims should stay exact, be footnoted with evidence, or be softened into public-safe wording.
