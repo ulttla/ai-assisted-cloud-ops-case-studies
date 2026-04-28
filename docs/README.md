@@ -9,6 +9,9 @@ This folder contains public-safe lab notes and case studies.
 - [Long Work Window Playbook](long-work-window-playbook.md)
 - [AzVision Network Path Analysis](azvision-network-path-analysis.md)
 - [Security and Sanitization](security-and-sanitization.md)
+- [Communicating AI-Assisted Work](communicating-ai-assisted-work.md)
+- [Portfolio Claim Guidelines](portfolio-claim-guidelines.md)
+- [Public Release Checklist](public-release-checklist.md)
 
 ## Decisions
 

@@ -39,6 +39,9 @@ The operating model is:
 | [Long Work Window Playbook](docs/long-work-window-playbook.md) | The supervised multi-hour execution pattern |
 | [AzVision Network Path Analysis](docs/azvision-network-path-analysis.md) | A concrete infrastructure/app case study |
 | [Security and Sanitization](docs/security-and-sanitization.md) | What is intentionally excluded from the public version |
+| [Communicating AI-Assisted Work](docs/communicating-ai-assisted-work.md) | Public-safe language for explaining supervised AI work |
+| [Portfolio Claim Guidelines](docs/portfolio-claim-guidelines.md) | Safer wording patterns for public metrics and business outcomes |
+| [Public Release Checklist](docs/public-release-checklist.md) | A general checklist for publishing AI engineering notes safely |
 
 ## Design decisions
 
