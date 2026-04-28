@@ -30,6 +30,10 @@ The operating model is:
 4. state and closeout records that make long sessions resumable;
 5. public-safe documentation that shares the insight without exposing private infrastructure.
 
+## Language
+
+- [Korean overview / 한국어 개요](README.ko.md)
+
 ## Reading path
 
 | Start here | Why it matters |

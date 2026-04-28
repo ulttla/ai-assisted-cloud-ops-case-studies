@@ -22,3 +22,8 @@ This folder contains public-safe lab notes and case studies.
 ## What is intentionally not here
 
 Internal deployment plans, approval packets, public-release checklists, portfolio claim review notes, and draft social posts are kept out of the public tree. They are useful working notes, but they are not part of the public lab-notes surface.
+
+## Korean starter notes
+
+- [Korean AI Engineering Lab overview](ko/ai-engineering-lab.md)
+- [Korean Long Work Window overview](ko/long-work-window.md)
