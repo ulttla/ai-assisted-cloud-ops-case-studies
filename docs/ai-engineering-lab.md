@@ -2,27 +2,31 @@
 
 ## Purpose
 
-The AI Engineering Lab is my personal R&D space for building AI-assisted applications, orchestration workflows, and long-running engineering automation. It is intentionally broader than one tool or one job function. OpenClaw is the current orchestrator, but the lab is designed to expand across future AI tools and execution backends.
+The AI Engineering Lab is my personal R&D space for building AI-assisted applications, orchestration workflows, harness patterns, and supervised long-running engineering automation.
 
-## What it demonstrates
+OpenClaw is the current orchestration layer. The lab itself is intentionally tool-agnostic: the useful part is not one specific model or command, but the operating system around scope, review, approval, validation, and evidence.
 
-- **Multi-tool orchestration:** coordinating Codex, Claude Code, Gemini CLI, browser automation, local scripts, GitHub, and hosting workflows through a single operating rhythm.
-- **Harness engineering:** using planner, builder, reviewer, fact-check, risk review, and closeout lanes so AI-assisted work remains reviewable.
-- **Supervised long-running development:** running multi-hour work windows with check-ins, state persistence, validation gates, and human approval boundaries.
-- **Personal app development:** turning experiments into working apps, case studies, and reusable playbooks.
-- **Public-safe documentation:** converting private operational work into sanitized, shareable artifacts without exposing secrets or internal runtime details.
+## What this repository shares
+
+This public repository shares the parts of the lab that can help other people think about AI-assisted engineering workflows:
+
+- how to coordinate multiple tools without losing a single accountable owner;
+- how to separate planning, implementation, review, fact-checking, and risk review lanes;
+- how to run longer work sessions without turning them into invisible automation;
+- how to preserve evidence and closeout notes that make work resumable;
+- how to convert private operational work into public-safe case studies.
 
 ## Current lab tracks
 
-| Track | Current status | Evidence |
+| Track | Status | Public evidence |
 |---|---:|---|
-| OpenClaw orchestration | Active | Used as the current control plane for multi-tool workflows |
+| OpenClaw orchestration | Active | Current control plane for multi-tool workflows |
 | Harness engineering | Active | Role-based review lanes, approval gates, and evidence closeouts |
 | Long Work Windows | Expanding | 5-hour windows validated; 7-hour campaign testing; 12-hour canary planned |
-| Personal apps | Active | AzVision and portfolio automation case studies |
-| Public feedback loop | Planned | Reddit-style technical feedback, then LinkedIn-ready summaries |
+| Infrastructure-aware app work | Active | AzVision network path analysis case study |
+| Public-safe documentation | Active | Sanitized examples, synthetic data, and public boundaries |
 
-## Why long-running work matters
+## Why long-running AI work matters
 
 Short AI coding sessions are easy to demo. The harder problem is making longer AI-assisted development safe enough to run for hours without losing scope, validation context, or human control.
 
@@ -32,13 +36,20 @@ The lab treats long-running work as an engineering system:
 2. split long campaigns into restartable chunks;
 3. run scheduled check-ins and read-backs;
 4. preserve state and evidence;
-5. validate before publish/deploy;
+5. validate before publish or deploy;
 6. close with a reusable handoff record.
 
-Public wording should avoid implying reckless fully unattended production changes. The intended framing is **supervised, approval-gated, long-running AI development**.
+This is supervised, approval-gated, long-running AI development. It is not a claim that AI should make external or irreversible changes without a human decision.
 
-## Next public iteration
+## What stays private
 
-- Rename the external portfolio framing from cloud-ops-specific to AI Engineering Lab.
-- Publish a sanitized Long Work Window writeup for community feedback.
-- Gradually turn the strongest lessons into LinkedIn-ready posts after technical feedback is incorporated.
+The public repo intentionally excludes raw runtime state, local paths, account details, internal channel names, credentials, hosting control-panel notes, and real private cloud exports.
+
+The goal is to share the operating patterns and the lessons, not the private machinery.
+
+## Suggested reading path
+
+1. [AI Engineering Control Plane](ai-assisted-engineering-control-plane.md)
+2. [Long Work Window Playbook](long-work-window-playbook.md)
+3. [AzVision Network Path Analysis](azvision-network-path-analysis.md)
+4. [Security and Sanitization](security-and-sanitization.md)
