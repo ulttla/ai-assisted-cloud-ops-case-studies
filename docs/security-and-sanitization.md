@@ -31,6 +31,7 @@ Convert private AI-assisted engineering work into public portfolio material with
 | Private detail | Public-safe replacement |
 |---|---|
 | Specific model/version names | Role-level description such as review lane, fact-check lane, or orchestration LLM |
+| Tool names intentionally used as public context | Keep only when they are part of the public artifact's purpose; for this repo, OpenClaw is intentionally named as the current orchestrator while private runtime details stay omitted |
 | Local paths | Project-relative paths or omitted entirely |
 | Real cloud resource identifiers | Synthetic labels such as `source-vm`, `app-subnet`, `web-nsg` |
 | Internal channels | Generic terms such as development channel or portfolio channel |
@@ -48,7 +49,8 @@ Convert private AI-assisted engineering work into public portfolio material with
 [ ] Public examples use synthetic data only
 [ ] Claims are backed by visible artifacts or scoped validation evidence
 [ ] Git history is clean or the public repo starts from a fresh history
-[ ] README states the repository is a sanitized case-study package
+[ ] README states the repository is a sanitized public lab-notes package
+[ ] Public tool names are intentional and do not expose private runtime configuration
 [ ] Publish/deploy has explicit human approval
 ```
 

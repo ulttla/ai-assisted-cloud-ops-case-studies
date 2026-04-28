@@ -39,4 +39,4 @@ AI coding workflow는 속도만으로 평가하면 위험해질 수 있습니다
 | [Security and Sanitization](docs/ko/security-and-sanitization.md) | 공개 문서에서 private detail을 제거하는 기준 |
 | [English README](README.md) | 전체 공개 저장소의 기본 landing page |
 
-영어 원문 문서는 `docs/` 폴더에 있습니다. 한국어 문서는 먼저 overview 중심으로 시작하고, 필요에 따라 점진적으로 늘릴 계획입니다.
+영어 원문 문서는 `docs/` 폴더에 있습니다. 한국어 문서는 먼저 overview 중심으로 시작했고, 아직 영어 문서 전체를 모두 번역한 것은 아닙니다. AzVision case study, public release checklist, ADR 같은 세부 문서는 현재 영어 원문을 기준으로 읽는 것이 가장 정확합니다. 한국어 문서는 필요에 따라 점진적으로 늘릴 계획입니다.

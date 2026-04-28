@@ -53,6 +53,11 @@ The operating model is:
 - [ADR 0002: Consensus evidence before closeout](docs/adr/0002-consensus-before-closeout.md)
 - [ADR 0003: Sanitized case-study repository instead of raw setup dump](docs/adr/0003-sanitized-case-study-repo.md)
 
+## Diagrams
+
+- [Agent team flow](diagrams/agent-team-flow.md)
+- [AzVision path analysis flow](diagrams/azvision-path-analysis-flow.md)
+
 ## Examples
 
 The `examples/` folder contains public-safe templates and synthetic data:
