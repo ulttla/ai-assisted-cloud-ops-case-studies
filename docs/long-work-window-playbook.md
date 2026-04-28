@@ -2,7 +2,7 @@
 
 ## Purpose
 
-A Long Work Window is a structured execution block for deep AI-assisted engineering work. It is designed to keep long-running work moving while preserving progress visibility, validation, and a clean closeout.
+A Long Work Window is a supervised execution block for deep AI-assisted engineering work. It is designed to keep long-running work moving for hours while preserving progress visibility, validation, approval boundaries, and a clean closeout.
 
 ## Why it exists
 
@@ -13,6 +13,7 @@ Long AI-assisted sessions can drift if they do not have a clear rhythm. Common f
 - losing track of validation
 - forgetting to document decisions
 - publishing or deploying without a final approval gate
+- losing continuity across very long 7–12 hour campaigns
 
 The Long Work Window model prevents this by making the window own the rhythm while the project owns the goal.
 
@@ -38,6 +39,16 @@ T+240: validation and public-readiness pass
 T+295: 5-minute warning
 T+300: closeout with evidence and next action
 ```
+
+## Campaign expansion
+
+The single-window target is intentionally conservative. Longer efforts should be handled as campaigns with restartable chunks instead of one unbounded context. Current public-safe status:
+
+- 5-hour windows: validated.
+- 7-hour campaign: in testing.
+- 12-hour campaign: planned canary.
+
+The point is not reckless unattended deployment. The point is supervised, approval-gated AI development that can run for hours while staying observable, resumable, and reviewable.
 
 ## Closeout minimum
 

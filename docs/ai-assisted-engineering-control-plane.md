@@ -1,8 +1,8 @@
-# AI-Assisted Engineering Control Plane
+# AI Engineering Control Plane
 
 ## 60-second summary
 
-The goal was to use AI tools without losing engineering discipline. The resulting workflow separates planning, building, review, fact-checking, and risk review into role-based lanes, while a single orchestrator keeps scope, approval, and final decisions centralized.
+The goal was to use multiple AI tools without losing engineering discipline. The resulting workflow uses OpenClaw as the current orchestration layer across coding agents, CLI tools, browser automation, local scripts, GitHub, and deployment workflows, while role-based lanes keep planning, building, review, fact-checking, risk review, and closeout separate.
 
 ## Problem
 
@@ -14,12 +14,12 @@ Using multiple AI tools can increase output, but it can also create operational 
 - no durable evidence trail for long-running work
 - unsafe handling of credentials, deployment, or private logs
 
-For infrastructure work, these gaps matter because mistakes can affect security, availability, cost, or data exposure.
+For personal app development and infrastructure work, these gaps matter because mistakes can affect security, availability, cost, data exposure, or public credibility.
 
 ## Design principles
 
 1. **Single front, multiple lanes**  
-   One orchestrator owns scope, user communication, final decisions, and tool execution. Specialist lanes provide independent input.
+   One orchestrator owns scope, user communication, final decisions, and tool execution. OpenClaw is the current orchestrator, but the pattern is tool-agnostic and can expand as better tools appear.
 
 2. **Role-based review instead of invisible auto-routing**  
    Lanes are selected by purpose: planning, implementation, review, breadth research, fact-check, risk review, and smoke testing.
@@ -50,6 +50,7 @@ flowchart TD
 ## What this demonstrates
 
 - AI workflow governance
+- multi-tool orchestration across AI coding tools and CLI workflows
 - infrastructure-safe execution discipline
 - review separation between builder and verifier
 - operating-model design, not just prompt usage
@@ -82,4 +83,4 @@ A strong closeout should include:
 
 ## Hiring signal
 
-This is the difference between “I use AI tools” and “I designed a governed AI-assisted engineering workflow.” The latter is more relevant to infrastructure, security, and cloud architecture roles because it shows judgment under operational constraints.
+This is the difference between “I use AI tools” and “I designed a governed AI engineering system.” The latter shows judgment under operational constraints and also demonstrates a broader personal engineering capability beyond one job function or tool.
