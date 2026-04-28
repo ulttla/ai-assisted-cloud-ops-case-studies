@@ -27,3 +27,5 @@ Internal deployment plans, approval packets, public-release checklists, portfoli
 
 - [Korean AI Engineering Lab overview](ko/ai-engineering-lab.md)
 - [Korean Long Work Window overview](ko/long-work-window.md)
+- [Korean Control Plane overview](ko/control-plane.md)
+- [Korean Security and Sanitization overview](ko/security-and-sanitization.md)

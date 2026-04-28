@@ -35,6 +35,8 @@ AI coding workflow는 속도만으로 평가하면 위험해질 수 있습니다
 |---|---|
 | [AI Engineering Lab](docs/ko/ai-engineering-lab.md) | 전체 lab 방향과 왜 이 구조를 만들었는지 |
 | [Long Work Window](docs/ko/long-work-window.md) | 여러 시간짜리 AI-assisted work를 관리하는 방식 |
+| [AI Engineering Control Plane](docs/ko/control-plane.md) | 여러 AI 도구를 하나의 운영 구조로 묶는 방식 |
+| [Security and Sanitization](docs/ko/security-and-sanitization.md) | 공개 문서에서 private detail을 제거하는 기준 |
 | [English README](README.md) | 전체 공개 저장소의 기본 landing page |
 
 영어 원문 문서는 `docs/` 폴더에 있습니다. 한국어 문서는 먼저 overview 중심으로 시작하고, 필요에 따라 점진적으로 늘릴 계획입니다.
