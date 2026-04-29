@@ -46,8 +46,6 @@ The operating model is:
 | [Spark Local LLM Lab](docs/spark-local-llm-lab.md) | Local LLM / NVIDIA privacy-sensitive experimentation track |
 | [Security and Sanitization](docs/security-and-sanitization.md) | What is intentionally excluded from the public version |
 | [Communicating AI-Assisted Work](docs/communicating-ai-assisted-work.md) | Public-safe language for explaining supervised AI work |
-| [Portfolio Claim Guidelines](docs/portfolio-claim-guidelines.md) | Safer wording patterns for public metrics and business outcomes |
-| [Public Release Checklist](docs/public-release-checklist.md) | A general checklist for publishing AI engineering notes safely |
 
 ## Design decisions
 

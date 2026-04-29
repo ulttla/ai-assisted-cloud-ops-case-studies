@@ -12,8 +12,6 @@ This folder contains public-safe lab notes and case studies.
 - [Spark Local LLM Lab](spark-local-llm-lab.md)
 - [Security and Sanitization](security-and-sanitization.md)
 - [Communicating AI-Assisted Work](communicating-ai-assisted-work.md)
-- [Portfolio Claim Guidelines](portfolio-claim-guidelines.md)
-- [Public Release Checklist](public-release-checklist.md)
 
 ## Decisions
 
@@ -23,7 +21,7 @@ This folder contains public-safe lab notes and case studies.
 
 ## What is intentionally not here
 
-Internal deployment plans, approval packets, public-release checklists, portfolio claim review notes, and draft social posts are kept out of the public tree. They are useful working notes, but they are not part of the public lab-notes surface.
+Internal deployment plans, approval packets, private review notes, and draft social posts are kept out of the public tree. They are useful working notes, but they are not part of the public lab-notes surface.
 
 ## Model-neutral context notes
 
