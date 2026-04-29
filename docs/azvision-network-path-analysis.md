@@ -1,11 +1,11 @@
-# AzVision Network Path Analysis Hardening
+# AzVision App Development: Network Path Analysis
 
 ## 60-second summary
 
 | Field | Summary |
 |---|---|
 | Problem | Azure network path verdicts can be misleading if NSG direction, service tags, effective NSG composition, route next hops, and port filters are not evaluated carefully. |
-| Role | Designed and orchestrated the hardening slice, using AI-assisted implementation and independent review lanes while keeping final technical decisions human-directed. |
+| Role | Designed and orchestrated an app hardening slice, using Azure networking domain knowledge, AI-assisted implementation, and independent review lanes while keeping final technical decisions human-directed. |
 | Outcome | Improved path-analysis correctness and explainability across backend, API, frontend, documentation, and tests. |
 | Proof | 110 targeted backend tests passed, frontend build passed, earlier full backend regression showed 235 tests passed. |
 
@@ -73,6 +73,7 @@ flowchart LR
 This case study is meant to show:
 
 - Azure network security understanding
+- infrastructure architecture judgment translated into working software
 - correctness-first troubleshooting design
 - conservative modeling under incomplete cloud data
 - test-backed delivery

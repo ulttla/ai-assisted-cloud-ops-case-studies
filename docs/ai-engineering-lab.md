@@ -22,9 +22,15 @@ This public repository shares the parts of the lab that can help other people th
 |---|---:|---|
 | OpenClaw orchestration | Active | Current control plane for multi-tool workflows |
 | Harness engineering | Active | Role-based review lanes, approval gates, and evidence closeouts |
-| Long Work Windows | Expanding | 5-hour windows validated; 7-hour campaign testing; 12-hour canary planned |
-| Infrastructure-aware app work | Active | AzVision network path analysis case study |
+| Long Work Windows | Validated | 5-hour and 12-hour campaigns validated via restartable chunks |
+| Infrastructure-aware app work | Active | AzVision app development case study and cloud architecture decision support |
 | Public-safe documentation | Active | Sanitized examples, synthetic data, and public boundaries |
+| gun-wiki brain | Active | Model-neutral LLM reference notes, inspired by Karpathy-style reading and curation |
+| Spark / local LLM experiments | Active | Privacy-sensitive local inference with llama.cpp, Ollama, and NVIDIA GPU experiments |
+
+## Positioning note
+
+The lab is built around AI-assisted app building and cloud architecture decision support, not a full-time software developer workflow. The output reflects a systems architect who uses AI tools inside a disciplined operating model.
 
 ## Why long-running AI work matters
 
@@ -39,7 +45,7 @@ The lab treats long-running work as an engineering system:
 5. validate before publish or deploy;
 6. close with a reusable handoff record.
 
-This is supervised, approval-gated, long-running AI development. It is not a claim that AI should make external or irreversible changes without a human decision.
+This is supervised, approval-gated, AI-assisted app development. It is not a claim of full-time developer workflow nor that AI should make external or irreversible changes without a human decision.
 
 ## What stays private
 
@@ -51,5 +57,8 @@ The goal is to share the operating patterns and the lessons, not the private mac
 
 1. [AI Engineering Control Plane](ai-assisted-engineering-control-plane.md)
 2. [Long Work Window Playbook](long-work-window-playbook.md)
-3. [AzVision Network Path Analysis](azvision-network-path-analysis.md)
-4. [Security and Sanitization](security-and-sanitization.md)
+3. [AzVision App Development](azvision-network-path-analysis.md)
+4. [Gun-Wiki Brain](gun-wiki-brain.md)
+5. [Spark Local LLM Lab](spark-local-llm-lab.md)
+6. [Security and Sanitization](security-and-sanitization.md)
+7. [Communicating AI-Assisted Work](communicating-ai-assisted-work.md)

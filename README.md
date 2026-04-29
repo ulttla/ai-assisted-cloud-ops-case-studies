@@ -41,7 +41,9 @@ The operating model is:
 | [AI Engineering Lab](docs/ai-engineering-lab.md) | Overall positioning and lab tracks |
 | [AI Engineering Control Plane](docs/ai-assisted-engineering-control-plane.md) | How multiple tools stay under one accountable workflow |
 | [Long Work Window Playbook](docs/long-work-window-playbook.md) | The supervised multi-hour execution pattern |
-| [AzVision Network Path Analysis](docs/azvision-network-path-analysis.md) | A concrete infrastructure/app case study |
+| [AzVision App Development](docs/azvision-network-path-analysis.md) | A concrete infrastructure/app case study |
+| [Gun-Wiki Brain](docs/gun-wiki-brain.md) | Model-neutral project memory and context engineering pattern |
+| [Spark Local LLM Lab](docs/spark-local-llm-lab.md) | Local LLM / NVIDIA privacy-sensitive experimentation track |
 | [Security and Sanitization](docs/security-and-sanitization.md) | What is intentionally excluded from the public version |
 | [Communicating AI-Assisted Work](docs/communicating-ai-assisted-work.md) | Public-safe language for explaining supervised AI work |
 | [Portfolio Claim Guidelines](docs/portfolio-claim-guidelines.md) | Safer wording patterns for public metrics and business outcomes |
@@ -71,10 +73,11 @@ These examples are intentionally small. They show the shape of the evidence with
 
 ## Evidence snapshots
 
-- AzVision network-path hardening slice: 110 targeted backend tests passed.
+- AzVision app development path-analysis version: 110 targeted backend tests passed.
 - Earlier backend regression: 235 tests passed.
 - Frontend build: passed.
 - Review pattern: builder, reviewer, fact-check, and challenger lanes with disagreements resolved before closeout.
+- Long Work Window campaign model: validated up to 12 hours through restartable chunks, not a single unattended session.
 
 The numbers are scoped to documented work slices. They are not generalized beyond what was actually validated.
 

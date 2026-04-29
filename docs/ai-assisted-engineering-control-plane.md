@@ -81,6 +81,24 @@ A strong closeout should include:
 - what remains risky or incomplete
 - whether the work is approved for public release or still draft-only
 
+## Concrete example: disagreement to closeout
+
+A practical harness run should make disagreement visible instead of hiding it in a chat transcript.
+
+One public-safe pattern:
+
+1. **Builder lane** drafts an implementation or documentation change.
+2. **Reviewer lane** flags a risk, such as wording that could imply autonomous deployment or a claim that is stronger than the available evidence.
+3. **Fact-check / risk lane** narrows the issue: what is safe, what needs softer wording, and what evidence is required.
+4. **Orchestrator** adopts the safe framing, updates the artifact, and records the rationale.
+5. **Validation** reruns link checks, package scans, or smoke tests before the work is treated as publishable.
+
+Example closeout wording:
+
+> Reviewer flagged an over-strong public claim. The wording was changed from an absolute capability claim to a supervised, evidence-backed workflow claim. Public package checks and link smoke passed after the revision.
+
+This is the part I want to demonstrate: AI can accelerate drafting, but the engineering value comes from review separation, evidence, and accountable adoption.
+
 ## Hiring signal
 
 This is the difference between “I use AI tools” and “I designed a governed AI engineering system.” The latter shows judgment under operational constraints and also demonstrates a broader personal engineering capability beyond one job function or tool.

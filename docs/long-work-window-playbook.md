@@ -44,9 +44,8 @@ T+300: closeout with evidence and next action
 
 The single-window target is intentionally conservative. Longer efforts should be handled as campaigns with restartable chunks instead of one unbounded context. Current public-safe status:
 
-- 5-hour windows: validated.
-- 7-hour campaign: in testing.
-- 12-hour campaign: planned canary.
+- 5-hour campaigns: validated.
+- 12-hour campaigns: validated via restartable chunks.
 
 The point is not reckless unattended deployment. The point is supervised, approval-gated AI development that can run for hours while staying observable, resumable, and reviewable.
 

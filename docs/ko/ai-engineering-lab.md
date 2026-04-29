@@ -8,6 +8,8 @@ AI Engineering Lab은 AI-assisted application development, orchestration workflo
 
 ## 왜 공개하는가
 
+이 작업은 AI-assisted app building과 cloud architecture decision support에 초점을 둡니다. full-time software developer workflow를 주장하지 않습니다.
+
 이 저장소의 목적은 제 private setup을 그대로 보여주는 것이 아닙니다. 대신 다른 사람에게도 도움이 될 수 있는 pattern과 lesson을 공유하는 것입니다.
 
 공개하는 내용은 다음과 같습니다.
@@ -23,9 +25,11 @@ AI Engineering Lab은 AI-assisted application development, orchestration workflo
 |---|---:|---|
 | OpenClaw orchestration | Active | 현재 multi-tool workflow의 control plane |
 | Harness engineering | Active | role-based review lane, approval gate, closeout evidence |
-| Long Work Window | Expanding | 5시간 window 검증, 7시간 campaign 테스트, 12시간 canary 계획 |
-| Infrastructure-aware app work | Active | AzVision network path analysis case study |
+| Long Work Window | Validated | 5시간 및 12시간 campaign을 restartable chunk로 검증 |
+| Infrastructure-aware app work | Active | AzVision network path analysis case study, cloud architecture decision support |
 | Public-safe documentation | Active | synthetic example, sanitized evidence, 공개 경계 기준 |
+| gun-wiki brain | Active | model-neutral LLM reference note, Karpathy 스타일 reading note curation |
+| Spark / local LLM 실험 | Active | llama.cpp, Ollama, NVIDIA GPU 기반 privacy-sensitive local inference |
 
 ## 중요한 경계
 
@@ -42,9 +46,12 @@ AI가 더 많은 일을 도울 수는 있지만, 외부 공개, 배포, credenti
 
 ## 다음 읽을 문서
 
-영어 문서 기준으로는 다음 순서가 좋습니다.
+한국어 문서는 다음 순서가 좋습니다.
 
-1. `docs/ai-assisted-engineering-control-plane.md`
-2. `docs/long-work-window-playbook.md`
-3. `docs/azvision-network-path-analysis.md`
-4. `docs/security-and-sanitization.md`
+1. [AI Engineering Control Plane](control-plane.md)
+2. [Long Work Window](long-work-window.md)
+3. [Gun-Wiki Brain](gun-wiki-brain.md)
+4. [Spark Local LLM Lab](spark-local-llm-lab.md)
+5. [Security and Sanitization](security-and-sanitization.md)
+6. [AzVision App Development](azvision-network-path-analysis.md)
+7. [Communicating AI-Assisted Work](communicating-ai-assisted-work.md)

@@ -10,6 +10,8 @@
 - planning, implementation, review, fact-check, risk review를 분리하는 harness engineering 패턴
 - 여러 시간 동안 이어지는 AI-assisted work를 check-in, validation, closeout으로 관리하는 방식
 - private operational work를 공개 가능한 case study와 example로 바꾸는 기준
+- AI-assisted app builder로서 infrastructure 문제를 working software와 decision-support tool로 바꾸는 방식
+- gun-wiki brain과 Spark local LLM처럼 model-neutral context와 privacy-sensitive local inference를 실험하는 방식
 
 ## 이 저장소가 아닌 것
 
@@ -33,10 +35,15 @@ AI coding workflow는 속도만으로 평가하면 위험해질 수 있습니다
 
 | 문서 | 설명 |
 |---|---|
+| [Korean Notes Index](docs/ko/README.md) | 한국어 문서 전체 읽기 순서 |
 | [AI Engineering Lab](docs/ko/ai-engineering-lab.md) | 전체 lab 방향과 왜 이 구조를 만들었는지 |
 | [Long Work Window](docs/ko/long-work-window.md) | 여러 시간짜리 AI-assisted work를 관리하는 방식 |
 | [AI Engineering Control Plane](docs/ko/control-plane.md) | 여러 AI 도구를 하나의 운영 구조로 묶는 방식 |
+| [AzVision App Development](docs/ko/azvision-network-path-analysis.md) | Azure network analysis app을 cloud architecture decision support로 확장하는 사례 |
+| [Gun-Wiki Brain](docs/ko/gun-wiki-brain.md) | model-neutral project memory와 context engineering 패턴 |
+| [Spark Local LLM Lab](docs/ko/spark-local-llm-lab.md) | local LLM, NVIDIA, privacy-sensitive experiment track |
 | [Security and Sanitization](docs/ko/security-and-sanitization.md) | 공개 문서에서 private detail을 제거하는 기준 |
+| [Communicating AI-Assisted Work](docs/ko/communicating-ai-assisted-work.md) | AI-assisted work를 과장 없이 설명하는 기준 |
 | [English README](README.md) | 전체 공개 저장소의 기본 landing page |
 
-영어 원문 문서는 `docs/` 폴더에 있습니다. 한국어 문서는 먼저 overview 중심으로 시작했고, 아직 영어 문서 전체를 모두 번역한 것은 아닙니다. AzVision case study, public release checklist, ADR 같은 세부 문서는 현재 영어 원문을 기준으로 읽는 것이 가장 정확합니다. 한국어 문서는 필요에 따라 점진적으로 늘릴 계획입니다.
+영어 원문 문서는 `docs/` 폴더에 있습니다. 한국어 문서는 핵심 overview와 새 AI Lab track 중심으로 확장했습니다. Public release checklist와 ADR 같은 세부 문서는 현재 영어 원문을 기준으로 읽는 것이 가장 정확합니다.
