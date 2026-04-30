@@ -15,7 +15,8 @@
 | [Gun-Wiki Brain](gun-wiki-brain.md) | model-neutral project memory와 context engineering 패턴 |
 | [Spark Local LLM Lab](spark-local-llm-lab.md) | local LLM, NVIDIA, privacy-sensitive experiment track |
 | [Security and Sanitization](security-and-sanitization.md) | 공개 문서에서 private detail을 제거하는 기준 |
-| [Public Release Evidence Pattern](../public-release-evidence.md) | 공개 산출물을 검증 증거와 함께 설명하는 기준 |
+| [Public Release Evidence Pattern](public-release-evidence.md) | 공개 산출물을 검증 증거와 함께 설명하는 기준 |
+| [Disagreement to Closeout 예제](../../examples/disagreement-to-closeout.md) | 리뷰 이견을 안전한 public claim으로 바꾸는 예시 |
 | [Communicating AI-Assisted Work](communicating-ai-assisted-work.md) | AI-assisted work를 과장 없이 설명하는 기준 |
 
 ## 공개 경계

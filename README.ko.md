@@ -43,7 +43,9 @@ AI coding workflow는 속도만으로 평가하면 위험해질 수 있습니다
 | [Gun-Wiki Brain](docs/ko/gun-wiki-brain.md) | model-neutral project memory와 context engineering 패턴 |
 | [Spark Local LLM Lab](docs/ko/spark-local-llm-lab.md) | local LLM, NVIDIA, privacy-sensitive experiment track |
 | [Security and Sanitization](docs/ko/security-and-sanitization.md) | 공개 문서에서 private detail을 제거하는 기준 |
+| [Public Release Evidence Pattern](docs/ko/public-release-evidence.md) | 공개 산출물을 검증 가능한 evidence로 만드는 기준 |
+| [Disagreement to Closeout 예제](examples/disagreement-to-closeout.md) | 리뷰 이견을 안전한 public claim으로 바꾸는 예시 |
 | [Communicating AI-Assisted Work](docs/ko/communicating-ai-assisted-work.md) | AI-assisted work를 과장 없이 설명하는 기준 |
 | [English README](README.md) | 전체 공개 저장소의 기본 landing page |
 
-영어 원문 문서는 `docs/` 폴더에 있습니다. 한국어 문서는 핵심 overview와 새 AI Lab track 중심으로 확장했습니다. Public release checklist와 ADR 같은 세부 문서는 현재 영어 원문을 기준으로 읽는 것이 가장 정확합니다.
+영어 원문 문서는 `docs/` 폴더에 있습니다. 한국어 문서는 핵심 overview와 새 AI Lab track 중심으로 확장했습니다. ADR 같은 세부 문서는 현재 영어 원문을 기준으로 읽는 것이 가장 정확합니다.

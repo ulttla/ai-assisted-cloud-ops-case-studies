@@ -1,3 +1,5 @@
+# Public-safe boundary: never commit credentials, private paths, raw logs, real cloud exports, or production config.
+# Run ./scripts/pre_publish_check.sh before pushing.
 .env
 .env.*
 !.env.example

@@ -1,5 +1,7 @@
 # Agent Team Flow
 
+Text summary: one accountable orchestrator fixes scope, routes work through planning, builder, reviewer, verifier, and risk lanes, then records consensus, validation evidence, and human approval before public release or deployment.
+
 ```mermaid
 flowchart TD
   A[User / project goal] --> B[Single orchestrator fixes scope]
