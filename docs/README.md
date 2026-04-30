@@ -11,6 +11,7 @@ This folder contains public-safe lab notes and case studies.
 - [Gun-Wiki Brain](gun-wiki-brain.md)
 - [Spark Local LLM Lab](spark-local-llm-lab.md)
 - [Security and Sanitization](security-and-sanitization.md)
+- [Public Release Evidence Pattern](public-release-evidence.md)
 - [Communicating AI-Assisted Work](communicating-ai-assisted-work.md)
 
 ## Decisions
@@ -18,6 +19,14 @@ This folder contains public-safe lab notes and case studies.
 - [Single orchestrator, multiple specialist lanes](adr/0001-single-orchestrator.md)
 - [Consensus evidence before closeout](adr/0002-consensus-before-closeout.md)
 - [Sanitized case-study repository instead of raw setup dump](adr/0003-sanitized-case-study-repo.md)
+
+## Examples and evidence templates
+
+- [Harness packet template](../examples/harness-packet-template.md)
+- [Long Work Window closeout template](../examples/lww-closeout-template.md)
+- [Disagreement to closeout example](../examples/disagreement-to-closeout.md)
+- [Sanitized path evidence](../examples/sanitized-path-evidence.json)
+- [Synthetic Azure path sample](../examples/synthetic-azure-path-sample.json)
 
 ## What is intentionally not here
 

@@ -45,6 +45,7 @@ The operating model is:
 | [Gun-Wiki Brain](docs/gun-wiki-brain.md) | Model-neutral project memory and context engineering pattern |
 | [Spark Local LLM Lab](docs/spark-local-llm-lab.md) | Local LLM / NVIDIA privacy-sensitive experimentation track |
 | [Security and Sanitization](docs/security-and-sanitization.md) | What is intentionally excluded from the public version |
+| [Public Release Evidence Pattern](docs/public-release-evidence.md) | How public artifacts are paired with validation evidence |
 | [Communicating AI-Assisted Work](docs/communicating-ai-assisted-work.md) | Public-safe language for explaining supervised AI work |
 
 ## Design decisions
@@ -64,6 +65,7 @@ The `examples/` folder contains public-safe templates and synthetic data:
 
 - harness packet template;
 - Long Work Window closeout template;
+- disagreement-to-closeout example;
 - sanitized path evidence;
 - synthetic Azure path sample.
 

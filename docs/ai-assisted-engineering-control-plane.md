@@ -99,6 +99,12 @@ Example closeout wording:
 
 This is the part I want to demonstrate: AI can accelerate drafting, but the engineering value comes from review separation, evidence, and accountable adoption.
 
+## Related public-safe examples
+
+- [Public Release Evidence Pattern](public-release-evidence.md)
+- [Disagreement to Closeout](../examples/disagreement-to-closeout.md)
+- [Long Work Window Closeout Template](../examples/lww-closeout-template.md)
+
 ## Hiring signal
 
 This is the difference between “I use AI tools” and “I designed a governed AI engineering system.” The latter shows judgment under operational constraints and also demonstrates a broader personal engineering capability beyond one job function or tool.
