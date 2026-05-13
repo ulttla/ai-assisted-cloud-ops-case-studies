@@ -45,6 +45,9 @@ The operating model is:
 | [Gun-Wiki Brain](docs/gun-wiki-brain.md) | Model-neutral project memory and context engineering pattern |
 | [Operator Resilience and Update Safety](docs/operator-resilience-and-update-safety.md) | Update gates, restart continuity, and backup/audit lane pattern |
 | [Hermes Secondary Operator Lane](docs/hermes-secondary-operator-lane.md) | Secondary audit/recovery lane for OpenClaw resilience |
+| [Restart Continuity Guard](docs/restart-continuity-guard.md) | Preserving chat/session continuity across approved control-plane restarts |
+| [Isolated Update Worktree Pattern](docs/isolated-update-worktree.md) | Testing runtime updates and local patches before touching live checkouts |
+| [Research Lane Web Setup](docs/research-lane-web-setup.md) | Public-safe setup pattern for secondary research backends |
 | [Spark Local LLM Lab](docs/spark-local-llm-lab.md) | Local LLM / NVIDIA privacy-sensitive experimentation track |
 | [Security and Sanitization](docs/security-and-sanitization.md) | What is intentionally excluded from the public version |
 | [Public Release Evidence Pattern](docs/public-release-evidence.md) | How public artifacts are paired with validation evidence |

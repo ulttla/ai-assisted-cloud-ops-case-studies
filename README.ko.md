@@ -42,6 +42,12 @@ AI coding workflow는 속도만으로 평가하면 위험해질 수 있습니다
 | [AzVision App Development](docs/ko/azvision-network-path-analysis.md) | Azure network analysis app을 cloud architecture decision support로 확장하는 사례 |
 | [Gun-Wiki Brain](docs/ko/gun-wiki-brain.md) | model-neutral project memory와 context engineering 패턴 |
 | [Spark Local LLM Lab](docs/ko/spark-local-llm-lab.md) | local LLM, NVIDIA, privacy-sensitive experiment track |
+| [운영 복원력과 업데이트 안전성](docs/ko/operator-resilience-and-update-safety.md) | 업데이트 승인, 재시작 복구, 보조 감사 lane 패턴 |
+| [Hermes 보조 운영 Lane](docs/ko/hermes-secondary-operator-lane.md) | OpenClaw 장애/업데이트 시 보조 감사/복구 lane |
+| [Restart Continuity Guard](docs/restart-continuity-guard.md) | control-plane restart 후 같은 workflow로 복귀하는 패턴 |
+| [Isolated Update Worktree Pattern](docs/isolated-update-worktree.md) | runtime update를 live checkout 밖에서 검증하는 패턴 |
+| [Research Lane Web Setup](docs/research-lane-web-setup.md) | 보조 research lane의 search/extract backend 설정 패턴 |
+| [Publication Boundary](docs/publication-boundary-marketplace.md) | marketplace/public posting에서 최종 publish를 사람에게 남기는 기준 |
 | [Security and Sanitization](docs/ko/security-and-sanitization.md) | 공개 문서에서 private detail을 제거하는 기준 |
 | [Public Release Evidence Pattern](docs/ko/public-release-evidence.md) | 공개 산출물을 검증 가능한 evidence로 만드는 기준 |
 | [Disagreement to Closeout 예제](examples/disagreement-to-closeout.md) | 리뷰 이견을 안전한 public claim으로 바꾸는 예시 |

@@ -2,8 +2,13 @@
 
 ## Unreleased
 
+- No unreleased changes yet.
+
+## 2026-05
+
 - Added Hermes secondary operator lane notes for public-safe audit/recovery positioning.
 - Added operator resilience and update-safety notes covering update gates, restart continuity, secondary audit lanes, and public-safe evidence.
+- Added restart continuity guard, isolated update worktree, research-lane web setup, and marketplace publication-boundary notes.
 
 ## 2026-04
 
