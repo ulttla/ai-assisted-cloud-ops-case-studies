@@ -14,6 +14,7 @@
 | [AzVision App Development](azvision-network-path-analysis.md) | Azure network analysis app을 cloud architecture decision support로 확장하는 사례 |
 | [Gun-Wiki Brain](gun-wiki-brain.md) | model-neutral project memory와 context engineering 패턴 |
 | [운영 복원력과 업데이트 안전성](operator-resilience-and-update-safety.md) | update gate, restart continuity, backup/audit lane 패턴 |
+| [Hermes 보조 운영 Lane](hermes-secondary-operator-lane.md) | OpenClaw resilience를 위한 보조 audit/recovery lane |
 | [Spark Local LLM Lab](spark-local-llm-lab.md) | local LLM, NVIDIA, privacy-sensitive experiment track |
 | [Security and Sanitization](security-and-sanitization.md) | 공개 문서에서 private detail을 제거하는 기준 |
 | [Public Release Evidence Pattern](public-release-evidence.md) | 공개 산출물을 검증 증거와 함께 설명하는 기준 |
