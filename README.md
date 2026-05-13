@@ -43,6 +43,7 @@ The operating model is:
 | [Long Work Window Playbook](docs/long-work-window-playbook.md) | The supervised multi-hour execution pattern |
 | [AzVision App Development](docs/azvision-network-path-analysis.md) | A concrete infrastructure/app case study |
 | [Gun-Wiki Brain](docs/gun-wiki-brain.md) | Model-neutral project memory and context engineering pattern |
+| [Operator Resilience and Update Safety](docs/operator-resilience-and-update-safety.md) | Update gates, restart continuity, and backup/audit lane pattern |
 | [Spark Local LLM Lab](docs/spark-local-llm-lab.md) | Local LLM / NVIDIA privacy-sensitive experimentation track |
 | [Security and Sanitization](docs/security-and-sanitization.md) | What is intentionally excluded from the public version |
 | [Public Release Evidence Pattern](docs/public-release-evidence.md) | How public artifacts are paired with validation evidence |

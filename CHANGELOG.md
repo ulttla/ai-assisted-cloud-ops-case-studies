@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Added operator resilience and update-safety notes covering update gates, restart continuity, secondary audit lanes, and public-safe evidence.
+
 ## 2026-04
 
 - Initial public release of AI Engineering Lab notes and sanitized case-study structure.

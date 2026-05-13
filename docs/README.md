@@ -9,6 +9,7 @@ This folder contains public-safe lab notes and case studies.
 - [Long Work Window Playbook](long-work-window-playbook.md)
 - [AzVision App Development](azvision-network-path-analysis.md)
 - [Gun-Wiki Brain](gun-wiki-brain.md)
+- [Operator Resilience and Update Safety](operator-resilience-and-update-safety.md)
 - [Spark Local LLM Lab](spark-local-llm-lab.md)
 - [Security and Sanitization](security-and-sanitization.md)
 - [Public Release Evidence Pattern](public-release-evidence.md)
